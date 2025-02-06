@@ -6,7 +6,7 @@ This repository contains all my project codes for the **Modern Robotics Speciali
 
 ### 1️⃣ **Modern Robotics, Course 1: Foundations of Robot Motion**  
 - Implemented forward and inverse kinematics for serial manipulators.  
-- Developed a Python-based simulator for computing transformations and Jacobians.  
+- Developed MATLAB scripts for computing transformations and Jacobians.  
 
 ### 2️⃣ **Modern Robotics, Course 2: Robot Kinematics**  
 - Derived and implemented **product of exponentials (PoE)** formulation for kinematic analysis.  
@@ -17,7 +17,7 @@ This repository contains all my project codes for the **Modern Robotics Speciali
 - Simulated and analyzed the torque requirements for various robotic configurations.  
 
 ### 4️⃣ **Modern Robotics, Course 4: Robot Motion Planning and Control**  
-- Developed sampling-based motion planning algorithms (**RRT**, **PRM**) in Python.  
+- Developed sampling-based motion planning algorithms (**RRT**, **PRM**) in MATLAB.  
 - Implemented **potential field** and **A* path planning** for autonomous navigation.  
 
 ### 5️⃣ **Modern Robotics, Course 5: Robot Manipulation and Wheeled Mobile Robots**  
@@ -28,12 +28,15 @@ This repository contains all my project codes for the **Modern Robotics Speciali
 ### 6️⃣ **Modern Robotics, Course 6: Capstone Project – Mobile Manipulation**  
 - Developed motion planning and control algorithms for a **KUKA YouBot** mobile manipulator.  
 - Implemented trajectory tracking, inverse kinematics, and manipulation planning.  
-- Simulated the complete system in MATLAB/Python to execute a pick-and-place task.  
+- Simulated the complete system in **CoppeliaSim Edu** with MATLAB for motion control.  
 
 ## **Tech Stack & Tools**  
-- **Programming**: Python, MATLAB  
-- **Libraries**: NumPy, SciPy, Matplotlib  
-- **Simulations**: MATLAB Robotics Toolbox, Python-based kinematics/dynamics simulators  
+- **Programming**: MATLAB  
+- **Libraries**:  
+  - **Matplotlib** for visualization  
+  - **Modern Robotics Library** – [NxRLab/ModernRobotics](https://github.com/NxRLab/ModernRobotics)  
+- **Simulations**:  
+  - **CoppeliaSim Edu** – [Coppelia Robotics](https://www.coppeliarobotics.com)  
 - **Robotics Concepts**: Kinematics, Dynamics, Motion Planning, Control, Trajectory Generation  
 
 ## **Repository Structure**  
@@ -47,6 +50,13 @@ This repository contains all my project codes for the **Modern Robotics Speciali
  ├── Course6_Capstone_KUKA_YouBot/  
  ├── README.md
 ```
-## **Usage & Contributions**  
-- Feel free to explore the projects and use the code for reference.  
-- Contributions, discussions, and improvements are always welcome! 
+
+# Usage & Contributions
+
+Feel free to explore the projects and use the code for reference.  
+Contributions, discussions, and improvements are always welcome!
+
+## Note
+
+This specialization also facilitates programming with Python using the **Modern Robotics Library** linked above.  
+I chose to implement my projects in **MATLAB** due to university licensing availability, but all tasks can also be completed in **Python**.
